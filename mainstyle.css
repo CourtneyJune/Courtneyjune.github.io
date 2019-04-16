@@ -1,0 +1,37 @@
+.jumbotron{
+    background-image: url("summer-flowers.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1, p{
+    color: #ffffff;
+    margin: auto;
+    padding: 5px 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    position: relative;
+    z-index: 1;
+
+}
+p{
+    background-color: #4dab94b9;
+    margin: -30px auto;
+   
+}
+.btn{
+    max-width: 300px;
+    margin: auto;
+    background-color: #b6809f;
+    border:none;
+    transition: 1s;
+}
+.btn:hover{
+    background-color: #4dab93;
+}

@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #ffff;
+    font-family: 'Laila', serif;
+    Font-Size: 15px;
+}
+body, p, input, select, textarea{
+    font-family: 'Laila', serif;
+    Font-Size: 15px;
+}
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Limelight', cursive;
+    font-weight: 900;
+}
+ a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+li{
+    padding-left: 10px;
+
+}
+img{
+    max-width: 100%;
+}
+#brand{
+    color: #FFFFFF;
+    line-height: 1;
+    font-size: 28px;
+    font-size: 1.75rem;
+}
+/* Header -------------------------------------------------------------*/
+.site-header{
+    position:fixed;
+    border-bottom: 2px solid black;
+    height: 70px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+}
+h1{
+    background-color: #4dab94b9;
+    color: #FFFFFF;
+    padding: 5px 35px;
+    text-align: right;
+}
